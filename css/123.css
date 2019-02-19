@@ -17,9 +17,9 @@ a:hover{text-decoration: none}
 .right #list_cur a{display: block;padding: 0 10px;line-height: 28px;color: #6C6C6C}
 .right #list_cur a:hover{background: #f5f5f5}
 @keyframes a1 {
-    from{background: aqua}
-    to{background: orange}
+    from{background: aqua;}
+    to{background: orange;}
 }
-body{
-    animation: a1 10s;
+#top_bg,#list_cur{
+    animation: a1 2s infinite;
 }
