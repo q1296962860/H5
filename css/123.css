@@ -21,3 +21,18 @@ a:hover{text-decoration: none}
     from{background: #00b5e5}
     to{background: #00FF00;opacity: 0}
 }
+@keyframes a2 {
+    0%{opacity: 0}
+    25%{opacity: 100}
+    50%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes a3 {
+    0%{opacity: 0}
+    50%{opacity: 0}
+    75%{opacity: 100}
+    100%{opacity: 0}
+}
+p{font-size: 100px;position: absolute;width: 100%;text-align: center;margin-top: 200px;}
+.b1{animation: a2 10s infinite;}
+.b2{animation: a3 10s infinite;}
