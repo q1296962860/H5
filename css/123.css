@@ -60,11 +60,19 @@ page{position: absolute;padding-top: 30%;padding-left: 30%;}
     80%{opacity: 100}
     100%{opacity: 0}
 }
+@keyframes ea1 {
+    0%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    90%{opacity: 100}
+    100%{opacity: 0}
+}
 p{font-size: 100px;position: absolute;width: 100%;text-align: center;margin-top: 200px;}
 .b1{animation: a2 10s infinite;animation-timing-function: ease-in-out;}
 .b2{animation: a3 10s infinite;}
 page{font-size: 180px;}
 .d1{background: #00FF00;animation: season1 10s infinite;}
 .d2{background: #be1931;animation: season2 10s infinite;}
-.d3{background: #DD7E20;animation: season3 10s infinite;}
+.d3{background: url("../img/aqours.jpg");animation: season3 10s infinite;background-size: 100% 100%;}
 .d4{background: #00A1D6;animation: season4 10s infinite;}
+.e1{font-size: 36px;display: block;animation: ea1 10s infinite;}
