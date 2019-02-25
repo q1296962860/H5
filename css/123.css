@@ -64,7 +64,7 @@ page{position: absolute;padding-top: 30%;padding-left: 30%;}
     0%{opacity: 0}
     70%{opacity: 0}
     80%{opacity: 100}
-    90%{opacity: 100}
+    90%{opacity: 0}
     100%{opacity: 0}
 }
 p{font-size: 100px;position: absolute;width: 100%;text-align: center;margin-top: 200px;}
